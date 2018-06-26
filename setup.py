@@ -8,8 +8,6 @@ setuptools.setup(
     version="0.0.1",
     author="Tom Reilly",
     description="A package for a mango exercise",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
     url="https://github.com/treilly94/mango-exercise",
     packages=setuptools.find_packages(),
     classifiers=(
