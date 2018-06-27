@@ -1,6 +1,6 @@
 # Mango Exercise
 
-This project contains a notebook that explores NBA freethrow data in the following directory:  
+This project contains a notebook that explores NBA freethrow data in the following location:  
 ./exploration/free_throws_analysis.ipynb
 
 There is also a package that contains both a functional and object orientated approach to creating random datasets that 
