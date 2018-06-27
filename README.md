@@ -8,6 +8,7 @@ fall into either a normal, poisson, or binomial distribution. These can be found
 ./mango-exercise/
 
 ## Installing the Package
+The package was created inline with instructions that can be found [here](https://packaging.python.org/tutorials/packaging-projects/)  
 The package can be installed using the following command:  
 ```
 pip install --index-url https://test.pypi.org/simple/ mango-exercise
