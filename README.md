@@ -9,4 +9,12 @@ fall into either a normal, poisson, or binomial distribution. These can be found
 
 ## Installing the Package
 The package can be installed using the following command:  
+```
 pip install --index-url https://test.pypi.org/simple/ mango-exercise
+```
+
+The class and function can then be imported as shown below:  
+```python
+from mango_exercise.distribution_generator_class import DistributionGenerator
+from mango_exercise.distribution_generator_function import distribution_generator
+```
