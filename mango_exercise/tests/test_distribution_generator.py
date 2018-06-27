@@ -21,3 +21,8 @@ class TestDistribution_generator(TestCase):
 
         self.assertTrue(19 <= output <= 21)
 
+    def test_binomial(self):
+        output = distribution_generator(200, "binomial", n=1, p=0.75).mean()
+        print(output)
+
+        self.assertTrue(0.7 <= output <= 0.8)
