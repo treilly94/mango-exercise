@@ -26,3 +26,7 @@ class TestDistribution_generator(TestCase):
         print(output)
 
         self.assertTrue(0.7 <= output <= 0.8)
+
+    def test_error(self):
+        with self.assertRaises(ValueError):
+            distribution_generator(500, "cat")
