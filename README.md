@@ -11,7 +11,7 @@ fall into either a normal, poisson, or binomial distribution. These can be found
 The package was created inline with instructions that can be found [here](https://packaging.python.org/tutorials/packaging-projects/)  
 The package can be installed using the following command:  
 ```
-pip install --index-url https://test.pypi.org/simple/ mango-exercise
+pip install --user --index-url https://test.pypi.org/simple/ mango-exercise
 ```
 
 The class and function can then be imported as shown below:  
