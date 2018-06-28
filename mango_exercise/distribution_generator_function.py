@@ -11,7 +11,7 @@ def distribution_generator(num_samples, distribution_type, mean=0, sd=1, interva
     :param interval: The Interval for a poisson distribution
     :param n: The number of samples for a binomial distribution
     :param p: The probability for a binomial distribution
-    :return:
+    :return: ndarray
     """
     if distribution_type == "normal":
         return random.normal(size=num_samples, loc=mean, scale=sd)
