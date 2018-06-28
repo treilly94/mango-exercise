@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mango_exercise",
-    version="0.0.6",
+    version="0.0.7",
     author="Tom Reilly",
     description="A package for a mango exercise",
     long_description=long_description,
