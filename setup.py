@@ -10,8 +10,11 @@ setuptools.setup(
     description="A package for a mango exercise",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/treilly94/mango_exercise",
+    url="https://github.com/treilly94/mango-exercise",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "numpy==1.14.5"
+    ],
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
