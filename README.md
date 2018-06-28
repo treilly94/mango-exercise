@@ -15,7 +15,7 @@ pip install --user --index-url https://test.pypi.org/simple/ mango-exercise
 ```
 It must be installed on a python3 environment and it should install numpy as a dependency.
 
-##Calling the package
+## Calling the package
 The class and function can then be imported as shown below:  
 ```python
 from mango_exercise.distribution_generator_class import DistributionGenerator
