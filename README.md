@@ -13,7 +13,15 @@ The package can be installed using the following command:
 ```
 pip install --user --index-url https://test.pypi.org/simple/ mango-exercise
 ```
-It must be installed on a python3 environment and it should install numpy as a dependency.
+It must be installed on a python3 environment and it should install numpy as a dependency.  
+
+A clean environment can either be created using virtualenv or docker. The below docker command is what I used to create 
+a clean test environment:  
+```
+docker run -i -t --rm python /bin/bash
+```
+pip and the python3 console should already be available in the container. The container can be exited using 
+the escape sequence Ctrl-p + Ctrl-q. Running docker stop against the container will automatically remove it.
 
 ## Calling the package
 The class and function can then be imported as shown below:  
