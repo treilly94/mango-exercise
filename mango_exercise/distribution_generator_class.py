@@ -54,7 +54,10 @@ class DistributionGenerator:
 
         :return:
         """
-        print("Min: " + str(self.data.min()))
-        print("Max: " + str(self.data.max()))
-        print("Mean: " + str(self.data.mean()))
-        print("Standard deviation: " + str(self.data.std()))
+        if self.data is None:
+            print("There is no current data")
+        else:
+            print("Min: " + str(self.data.min()))
+            print("Max: " + str(self.data.max()))
+            print("Mean: " + str(self.data.mean()))
+            print("Standard deviation: " + str(self.data.std()))
