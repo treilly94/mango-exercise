@@ -13,7 +13,10 @@ The package can be installed using the following command:
 ```
 pip install --user --index-url https://test.pypi.org/simple/ mango-exercise
 ```
-It must be installed on a python3 environment and it should install numpy as a dependency.  
+It must be installed on a python3 environment and it should install numpy as a dependency.
+
+***If there are any issues with numpy being installed as a dependency it may be because it is being installed from the same 
+test repository that mango-exercise is hosted in. Pip installing numpy separately should fix any issue.***   
 
 A clean environment can either be created using virtualenv or docker. The below docker command is what I used to create 
 a clean test environment:  
